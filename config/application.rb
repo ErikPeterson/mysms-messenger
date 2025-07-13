@@ -38,7 +38,7 @@ module MysmsMessenger
 
     config.middleware.use Rack::Cors do
       allow do
-        origins Rails.env['ALLOWED_ORIGINS'] || '*'
+        origins ENV['ALLOWED_ORIGINS'] || '*'
         resource '*',
           headers: :any,
           expose: ['access-token', 'expiry', 'token-type', 'uid', 'client'],
