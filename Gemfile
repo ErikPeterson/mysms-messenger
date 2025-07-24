@@ -18,7 +18,7 @@ gem "jbuilder"
 gem "rack-cors", "~> 2.0.2", require: 'rack/cors'
 
 #Twilio API
-gem "twilio-ruby", "~> 7.6.5"
+gem "twilio-ruby", "~> 7.7.0"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
