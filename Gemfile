@@ -15,7 +15,7 @@ gem "puma", ">= 5.0"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 # Allow CORS
-gem "rack-cors", "~> 2.0.2", require: 'rack/cors'
+gem "rack-cors", "~> 3.0.0", require: 'rack/cors'
 
 #Twilio API
 gem "twilio-ruby", "~> 7.6.5"
